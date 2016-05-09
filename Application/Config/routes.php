@@ -1,7 +1,6 @@
 <?php
 return array(
     'GET' => array(
-        '/' => array("Home", "index")
-
+        '/' => array('Application\Controllers\Home', "index")
     )
 );

@@ -21,8 +21,8 @@ return array(
 
         'sessionStorage' => array(
             'invokable' => function($c){
-                    return new Edge\Core\Session\SessionRedisStorage($c['cache']);
-                },
+                return new Edge\Core\Session\SessionRedisStorage($c['cache']);
+            },
             'shared' => true
         ),
     ),
