@@ -1,6 +1,6 @@
 # php-edge-app
 Sample application for PHP-Edge framework
 
-To install the application, clone the repository and run
+To install Edge with composer, run
 
     composer create-project bellostom/php-edge app -sdev
