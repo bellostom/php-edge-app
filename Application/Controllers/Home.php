@@ -19,4 +19,13 @@ class Home extends BaseController{
             'title' => 'Edge MVC'
         ]);
     }
+
+    public function renderList(){
+        $tpl = static::loadView('ui.list.tpl');
+        $tpl->title = 'Welcome to Edge';
+        $tpl->list = ["one", "two", "three"];
+        return parent::render($tpl, [
+            'title' => 'Edge MVC'
+        ]);
+    }
 }

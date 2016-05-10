@@ -1,7 +1,7 @@
 <?php
 require('../vendor/autoload.php');
+set_include_path("." . PATH_SEPARATOR . realpath(__DIR__."/../"));
 use Edge\Core\Edge;
-$webApp = new Edge("../Application/Config/config.php");
+$webApp = new Edge("Application/Config/config.php");
 $router = $webApp->getConfig('routerClass');
-$oRouter = new $router($webApp->getRoutes());
-$oRouter->invoke();
+(new $router($webApp->getRoutes()))->invoke();
