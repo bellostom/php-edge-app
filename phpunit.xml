@@ -17,9 +17,6 @@
             <directory suffix=".php">./tests/</directory>
         </testsuite>
     </testsuites>
-    <php>
-        <includePath>.</includePath>
-    </php>
     <!-- Add a filter to make sure we don't count vendors and Tests in the coverage report -->
     <filter>
         <whitelist>
