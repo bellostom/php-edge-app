@@ -21,8 +21,8 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Application\\Tests\\": "tests/",
-      "Edge\\Tests\\": "vendor/bellostom/php-edge/tests/"
+      "Application\\Tests\\": "tests/"
     }
-  }
+  },
+  "include-path": [""]
 }
