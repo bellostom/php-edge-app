@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "bellostom/php-edge": "dev-master"
+    "bellostom/php-edge": "~1.0"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0"
